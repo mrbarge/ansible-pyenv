@@ -1,0 +1,4 @@
+---
+# defaults file for pyenv
+
+pypihost: "demo.artifactory.host"
