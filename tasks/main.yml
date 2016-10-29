@@ -8,5 +8,5 @@
 
   - name: Deploy pip config
     template:
-      source: "pip_conf.j2"
+      src: "pip_conf.j2"
       dest: "{{ansible_env.HOME}}/.pip/pip.conf"
