@@ -4,7 +4,7 @@
   - name: Create pip conf dir
     file:
       path: "{{ansible_env.HOME}}/.pip"
-      state: present
+      state: directory
 
   - name: Deploy pip config
     template:
